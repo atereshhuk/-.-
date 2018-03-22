@@ -1,0 +1,9 @@
+E:\YourPC\YourPC\bin\Release\YourPC.exe
+E:\YourPC\YourPC\bin\Release\YourPC.pdb
+E:\YourPC\YourPC\obj\Release\YourPC.Form1.resources
+E:\YourPC\YourPC\obj\Release\YourPC.Icon.resources
+E:\YourPC\YourPC\obj\Release\YourPC.Properties.Resources.resources
+E:\YourPC\YourPC\obj\Release\YourPC.csproj.GenerateResource.Cache
+E:\YourPC\YourPC\obj\Release\YourPC.exe
+E:\YourPC\YourPC\obj\Release\YourPC.pdb
+E:\YourPC\YourPC\obj\Release\YourPC.csprojResolveAssemblyReference.cache

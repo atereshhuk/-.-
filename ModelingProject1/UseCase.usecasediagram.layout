@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UseCase">
+  <useCaseModelRootMoniker Id="22713731-1240-4339-85af-1616e2c02727" />
+  <nestedChildShapes>
+    <useCaseShape Id="e9526543-c6e1-4074-9d46-508c8eb5c466" absoluteBounds="3.875, 1.375, 1.875, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="e6568b87-5345-4004-9cd0-f12eabea93cc" LastKnownName="Переглянути інформацію про систему" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseShape Id="aa4484c2-dac4-459f-b27b-e2e4174a698e" absoluteBounds="3.875, 2.875, 1.875, 0.875" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="88ba74f3-ee64-42a1-bf5c-07de29ec0a69" LastKnownName="Переглянути інформацію про розділи жорсткого диску" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <actorShape Id="04710274-0be0-493c-9572-ae0f2a3b11fb" absoluteBounds="2.5, 2.25, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="b598ec11-5ac2-4810-9c19-914be336d265" LastKnownName="Користувач" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseDependencyConnector edgePoints="[(3 : 2.40909090909091); (4.1188061811913 : 2.00225229774862)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <dependencyMoniker Id="ddd5d53f-85a4-40ef-b45d-466999a0ad8f" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="04710274-0be0-493c-9572-ae0f2a3b11fb" />
+        <useCaseShapeMoniker Id="e9526543-c6e1-4074-9d46-508c8eb5c466" />
+      </nodes>
+    </useCaseDependencyConnector>
+    <useCaseDependencyConnector edgePoints="[(3 : 2.59848484848485); (4.09612005049596 : 3.03028971686205)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <dependencyMoniker Id="4a943e8e-739f-4fe7-881e-336c762ab9d4" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="04710274-0be0-493c-9572-ae0f2a3b11fb" />
+        <useCaseShapeMoniker Id="aa4484c2-dac4-459f-b27b-e2e4174a698e" />
+      </nodes>
+    </useCaseDependencyConnector>
+  </nestedChildShapes>
+</useCaseDiagram>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="22713731-1240-4339-85af-1616e2c02727" name="UseCase" linkedPackageId="7383d082-8560-47cf-97d1-d9e8d506d4bf" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="70ba73f6-cf17-4689-bac2-3444d2c5dda3">
+      <profileInstance Id="4b3b05ce-16f0-4186-b1d3-57d8855bcbd3" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="84c34d07-3a71-4c3f-908e-c6c0dc96a4ee">
+      <profileInstance Id="a33f9c25-6af5-40be-9cd2-e7e49bacb255" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e6568b87-5345-4004-9cd0-f12eabea93cc" name="Переглянути інформацію про систему" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7e5b27c5-1634-4bcf-830e-f3508367b1a8" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="88ba74f3-ee64-42a1-bf5c-07de29ec0a69" name="Переглянути інформацію про розділи жорсткого диску" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="20742124-e00b-4c1a-890b-9bc1ab128063" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="b598ec11-5ac2-4810-9c19-914be336d265" name="Користувач" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="422a9fe3-5036-49bf-bd36-522e91f9cae0" />
+        <suppliersInternal>
+          <dependency Id="ddd5d53f-85a4-40ef-b45d-466999a0ad8f">
+            <useCaseMoniker Id="e6568b87-5345-4004-9cd0-f12eabea93cc" LastKnownName="Переглянути інформацію про систему" />
+            <elementDefinition Id="1d0c5caf-2bac-47d7-a08d-1660ed7d89b8" />
+          </dependency>
+          <dependency Id="4a943e8e-739f-4fe7-881e-336c762ab9d4">
+            <useCaseMoniker Id="88ba74f3-ee64-42a1-bf5c-07de29ec0a69" LastKnownName="Переглянути інформацію про розділи жорсткого диску" />
+            <elementDefinition Id="151c845d-48b9-49d9-a0f5-53b471f02e0d" />
+          </dependency>
+        </suppliersInternal>
+      </actor>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="7383d082-8560-47cf-97d1-d9e8d506d4bf" name="ModelingProject1">
+    <elementDefinition Id="9fc38f31-22c1-4b91-8f18-ef1f4f235020" />
+  </package>
+</useCaseModelRoot>
